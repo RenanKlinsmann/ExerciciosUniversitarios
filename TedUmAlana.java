@@ -4,15 +4,15 @@ public class Main
 {
 	public static void main(String[] args) {
 	    
-	    Scanner sc = new Scanner(System.in);
-	    System.out.println("Digite as horas trabalhadas:");
-	    double horas_trab = sc.nextDouble();
-	    System.out.println("Digite o valor da hora trabalhada:");
-	    double valor_hora = sc.nextDouble();
+	        Scanner sc = new Scanner(System.in);
+	        System.out.println("Digite as horas trabalhadas:");
+	        double horas_trab = sc.nextDouble();
+	        System.out.println("Digite o valor da hora trabalhada:");
+	        double valor_hora = sc.nextDouble();
 	    
 	    
-	    double salario_bruto = horas_trab * valor_hora;
-	    double descontoIprf = (salario_bruto * 11)/100;
+	        double salario_bruto = horas_trab * valor_hora;
+	        double descontoIprf = (salario_bruto * 11)/100;
 		double descontoInss = (salario_bruto * 8)/100;
 		double descontoSind = (salario_bruto * 5)/100;
 		
