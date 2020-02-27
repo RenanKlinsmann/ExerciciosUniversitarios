@@ -2,8 +2,8 @@
 Para isso, implemente a entrada de dados com Scanner ou JOptionPane.*/
 
 import java.util.Scanner;
-public class tedDoisAlanaEquacaoSegGrau
-{
+
+public class EquacaoSegGrau {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
 	    double a;
