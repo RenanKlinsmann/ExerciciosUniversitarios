@@ -10,9 +10,9 @@ public class CoversorDeMoeda {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US); 
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Qual È o preÁo do dÛlar? "); 
+		System.out.print("Qual √© o pre√ßo do d√≥lar? "); 
 		double precoDolar = sc.nextDouble(); 
-		System.out.print("Quantos dÛlares ser„o comprados? "); 
+		System.out.print("Quantos d√≥lares ser√£o comprados? "); 
 		double montante = sc.nextDouble(); 
 		double result = Conversor.dolarParaReal(montante, precoDolar); 
 		System.out.printf("Valor a ser pago em reais = R$ %.2f%n", result);
@@ -21,4 +21,5 @@ public class CoversorDeMoeda {
 
 	}
 
+	
 }
